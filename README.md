@@ -1,7 +1,17 @@
 # 🚀 AI Invoice Agent (GenAI-Powered Financial Assistant)
 
 A production-ready AI system that automates invoice workflows using conversational AI and real-time analytics.
+---
+## 📸 Screenshots
 
+### Dashboard
+![Dashboard](assets/ai-invoice-dashboard.png)
+
+### Analytics
+![Analytics](assets/ai-invoice-analytics.png)
+
+### AI Agent
+![AI Chat](assets/ai-invoice-agent-chat.png)
 ---
 
 ## 🧠 Problem
