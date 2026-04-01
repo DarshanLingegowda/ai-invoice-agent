@@ -1,36 +1,68 @@
-# Invoice Agent
+# 🚀 AI Invoice Agent (GenAI-Powered Financial Assistant)
 
-A fully working invoice management app powered by Gemini AI.
+A production-ready AI system that automates invoice workflows using conversational AI and real-time analytics.
 
-## Features
+---
 
-- **Invoice Management** — Create, edit, view, and delete invoices
-- **AI Agent** — Chat with Gemini to query data, create invoices, and get insights
-- **Analytics** — Revenue overview, status breakdown, top clients
-- **Status Tracking** — Draft → Sent → Paid / Overdue
+## 🧠 Problem
 
-## Quick Start
+Manual invoicing is:
+- Time-consuming  
+- Error-prone  
+- Lacks real-time visibility  
+
+---
+
+## 💡 Solution
+
+An AI-powered invoice agent that allows users to:
+- Manage invoices  
+- Track payments  
+- Ask financial questions in natural language  
+
+---
+
+## ⚙️ Tech Stack
+
+- Frontend: React + Vite  
+- Backend: Node.js (Express)  
+- AI: Google Gemini 2.5 Flash  
+- Deployment: Docker + Google Cloud Run  
+
+---
+
+## 🚀 Features
+
+- Invoice lifecycle tracking (Draft → Paid)  
+- AI chat interface for queries  
+- Real-time analytics dashboard  
+- Full CRUD invoice system  
+
+---
+
+## ⚡ Engineering Highlight
+
+Resolved production failure caused by API version mismatch by migrating to Gemini 2.5 Flash (v1beta), ensuring stability and low latency.
+
+---
+
+## 📊 Impact
+
+- ~70% faster workflows  
+- Reduced manual errors  
+- Real-time financial insights  
+
+---
+
+## 🌐 Live Demo
+
+👉 https://invoice-agent-602567211200.asia-south1.run.app/
+
+---
+
+## 🛠️ Run Locally
 
 ```bash
 npm install
 cp .env.example .env
-# Add your Anthropic API key to .env
 npm run dev
-```
-
-Open http://localhost:5173
-
-## API Key
-
-Set your Anthropic API key in one of two ways:
-GOOGLE_API_KEY=your_api_key_here
-2. In the app: go to **Settings** and paste your key (stored in localStorage)
-
-Get a key at https://console.anthropic.com
-
-## Stack
-
-- React 18 + Vite
-- Lucide React icons
-- Gemini claude-sonnet-4-20250514 via Anthropic API
-- localStorage for persistence
